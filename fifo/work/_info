@@ -1,0 +1,151 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/particle/Desktop/sv_casestudies/fifo
+T_opt
+!s110 1678010956
+V`PZ8YG^2Zz]eN;[]VzWg:2
+04 8 4 work fifo_top fast 0
+=1-000ae431a4f1-64046a4c-4c335-2472
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+vfifo
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z3 !s110 1678011715
+!i10b 1
+!s100 d`jDER0mSR_Ig4B]M<Y:E2
+IHShP@OOHa_J3TSgTLRR@G3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 !s105 fifo_svh_unit
+S1
+R0
+w1677002277
+82.fifo.sv
+Z6 F2.fifo.sv
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1678011715.000000
+!s107 11.fifo_top.sv|10.fifo_cfg.sv|9.fifo_tb.sv|8.fifo_env.sv|7.fifo_scb.sv|6.fifo_mon.sv|5.fifo_drv.sv|4.fifo_gen.sv|3.fifo_tx.sv|2.fifo.sv|1.fifo_if.sv|fifo.svh|
+Z9 !s90 -reportprogress|300|fifo.svh|
+!i113 0
+Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Yfifo_if
+R2
+R3
+!i10b 1
+!s100 jYZB[`1WKPB0SVL8hMgXi0
+IzM2Po^ooNDUT^Fc;N[:`m3
+R4
+R5
+S1
+R0
+w1677357618
+81.fifo_if.sv
+Z11 F1.fifo_if.sv
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+Z12 !s107 11.fifo_top.sv|10.fifo_cfg.sv|9.fifo_tb.sv|8.fifo_env.sv|7.fifo_scb.sv|6.fifo_mon.sv|5.fifo_drv.sv|4.fifo_gen.sv|3.fifo_tx.sv|2.fifo.sv|1.fifo_if.sv|fifo.svh|
+R9
+!i113 0
+R10
+R1
+Xfifo_svh_unit
+!s115 fifo_if
+R2
+VVXcNaXH3UPG@OU^Z=6^0<0
+r1
+!s85 0
+!i10b 1
+!s100 7kn:GH31BI?O9@YFm;OaH2
+IVXcNaXH3UPG@OU^Z=6^0<0
+!i103 1
+S1
+R0
+Z13 w1678010871
+8fifo.svh
+Ffifo.svh
+R11
+R6
+F3.fifo_tx.sv
+F4.fifo_gen.sv
+F5.fifo_drv.sv
+F6.fifo_mon.sv
+F7.fifo_scb.sv
+F8.fifo_env.sv
+Z14 F9.fifo_tb.sv
+F10.fifo_cfg.sv
+Z15 F11.fifo_top.sv
+L0 1
+R7
+31
+R8
+R12
+R9
+!i113 0
+R10
+R1
+4fifo_tb
+R2
+Z16 DXx4 work 13 fifo_svh_unit 0 22 VXcNaXH3UPG@OU^Z=6^0<0
+R4
+r1
+!s85 0
+!i10b 1
+!s100 fXkmG[MhcJ3o5nV_9QYKL2
+I0Q8jG>m6zW25_5B<Q2cBV1
+R5
+S1
+R0
+R13
+89.fifo_tb.sv
+R14
+L0 1
+R7
+31
+R8
+R12
+R9
+!i113 0
+R10
+R1
+vfifo_top
+R2
+R16
+R4
+r1
+!s85 0
+!i10b 1
+!s100 X?i5^:d3k7UNN65m1Q^2`0
+I>mBIAbkHdKHbS>n52]LB43
+R5
+S1
+R0
+w1677413600
+811.fifo_top.sv
+R15
+L0 1
+R7
+31
+R8
+R12
+R9
+!i113 0
+R10
+R1

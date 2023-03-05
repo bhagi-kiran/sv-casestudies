@@ -1,0 +1,168 @@
+# //  Questa Sim-64
+# //  Version 10.7c linux_x86_64 Aug 17 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 15:51:55 on Mar 05,2023
+# vlog -reportprogress 300 fifo.svh 
+# -- Compiling interface fifo_if
+# -- Compiling module fifo
+# -- Compiling package fifo_svh_unit
+# -- Compiling program fifo_tb
+# -- Compiling module fifo_top
+# 
+# Top level modules:
+# 	fifo_top
+# End time: 15:51:56 on Mar 05,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim fifo_top 
+# Start time: 15:51:56 on Mar 05,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.fifo_svh_unit(fast)
+# Loading work.fifo_top(fast)
+# Loading work.fifo_tb(fast)
+# Loading work.fifo_if(fast)
+# [DRV] : DUT RESET DONE 
+# [Packet] 1 out of 20
+#                   45  [GEN] : RD = 1	WR = 0	DATAWR = 8	DATARD = 0	EMPTY = 0	FULL = 0
+#                   45  [DRV] : RD = 1	WR = 0	DATAWR = 8	DATARD = 0	EMPTY = 0	FULL = 0
+#                   65  [MON] : RD = 1	WR = 0	DATAWR = 8	DATARD = 0	EMPTY = 0	FULL = 0
+#                   65  [SCO] : RD = 1	WR = 0	DATAWR = 8	DATARD = 0	EMPTY = 0	FULL = 0
+# DATA MATCH
+# [Packet] 2 out of 20
+#                   65  [GEN] : RD = 1	WR = 0	DATAWR = 7	DATARD = 0	EMPTY = 0	FULL = 0
+#                   65  [DRV] : RD = 1	WR = 0	DATAWR = 7	DATARD = 0	EMPTY = 0	FULL = 0
+#                   85  [MON] : RD = 1	WR = 0	DATAWR = 7	DATARD = 0	EMPTY = 0	FULL = 0
+#                   85  [SCO] : RD = 1	WR = 0	DATAWR = 7	DATARD = 0	EMPTY = 0	FULL = 0
+# DATA MATCH
+# [Packet] 3 out of 20
+#                   85  [GEN] : RD = 1	WR = 0	DATAWR = 3	DATARD = 0	EMPTY = 0	FULL = 0
+#                   85  [DRV] : RD = 1	WR = 0	DATAWR = 3	DATARD = 0	EMPTY = 0	FULL = 0
+#                  105  [MON] : RD = 1	WR = 0	DATAWR = 3	DATARD = 0	EMPTY = 0	FULL = 0
+#                  105  [SCO] : RD = 1	WR = 0	DATAWR = 3	DATARD = 0	EMPTY = 0	FULL = 0
+# DATA MATCH
+# [Packet] 4 out of 20
+#                  105  [GEN] : RD = 1	WR = 0	DATAWR = 8	DATARD = 0	EMPTY = 0	FULL = 0
+#                  105  [DRV] : RD = 1	WR = 0	DATAWR = 8	DATARD = 0	EMPTY = 0	FULL = 0
+#                  125  [MON] : RD = 1	WR = 0	DATAWR = 8	DATARD = 0	EMPTY = 0	FULL = 0
+#                  125  [SCO] : RD = 1	WR = 0	DATAWR = 8	DATARD = 0	EMPTY = 0	FULL = 0
+# DATA MATCH
+# [Packet] 5 out of 20
+#                  125  [GEN] : RD = 1	WR = 0	DATAWR = 2	DATARD = 0	EMPTY = 0	FULL = 0
+#                  125  [DRV] : RD = 1	WR = 0	DATAWR = 2	DATARD = 0	EMPTY = 0	FULL = 0
+#                  145  [MON] : RD = 1	WR = 0	DATAWR = 2	DATARD = 0	EMPTY = 0	FULL = 0
+#                  145  [SCO] : RD = 1	WR = 0	DATAWR = 2	DATARD = 0	EMPTY = 0	FULL = 0
+# DATA MATCH
+# [Packet] 6 out of 20
+#                  145  [GEN] : RD = 1	WR = 0	DATAWR = 9	DATARD = 0	EMPTY = 0	FULL = 0
+#                  145  [DRV] : RD = 1	WR = 0	DATAWR = 9	DATARD = 0	EMPTY = 0	FULL = 0
+#                  165  [MON] : RD = 1	WR = 0	DATAWR = 9	DATARD = 0	EMPTY = 0	FULL = 0
+#                  165  [SCO] : RD = 1	WR = 0	DATAWR = 9	DATARD = 0	EMPTY = 0	FULL = 0
+# DATA MATCH
+# [Packet] 7 out of 20
+#                  165  [GEN] : RD = 0	WR = 1	DATAWR = 8	DATARD = 0	EMPTY = 0	FULL = 0
+#                  165  [DRV] : RD = 0	WR = 1	DATAWR = 8	DATARD = 0	EMPTY = 0	FULL = 0
+#                  185  [MON] : RD = 0	WR = 1	DATAWR = 8	DATARD = 0	EMPTY = 0	FULL = 0
+#                  185  [SCO] : RD = 0	WR = 1	DATAWR = 8	DATARD = 0	EMPTY = 0	FULL = 0
+# [SCO] : Data Stored in Queue = 8
+# [Packet] 8 out of 20
+#                  185  [GEN] : RD = 0	WR = 1	DATAWR = 9	DATARD = 0	EMPTY = 0	FULL = 0
+#                  185  [DRV] : RD = 0	WR = 1	DATAWR = 9	DATARD = 0	EMPTY = 0	FULL = 0
+#                  205  [MON] : RD = 0	WR = 1	DATAWR = 9	DATARD = 0	EMPTY = 0	FULL = 0
+#                  205  [SCO] : RD = 0	WR = 1	DATAWR = 9	DATARD = 0	EMPTY = 0	FULL = 0
+# [SCO] : Data Stored in Queue = 9
+# [Packet] 9 out of 20
+#                  205  [GEN] : RD = 1	WR = 0	DATAWR = 2	DATARD = 0	EMPTY = 0	FULL = 0
+#                  205  [DRV] : RD = 1	WR = 0	DATAWR = 2	DATARD = 0	EMPTY = 0	FULL = 0
+#                  225  [MON] : RD = 1	WR = 0	DATAWR = 2	DATARD = 0	EMPTY = 0	FULL = 0
+#                  225  [SCO] : RD = 1	WR = 0	DATAWR = 2	DATARD = 0	EMPTY = 0	FULL = 0
+# ** Error: DATA MIS-MATCH
+#    Time: 225 ns  Scope: fifo_svh_unit.fifo_scb.run File: 7.fifo_scb.sv Line: 33
+# [Packet] 10 out of 20
+#                  225  [GEN] : RD = 0	WR = 1	DATAWR = 6	DATARD = 0	EMPTY = 0	FULL = 0
+#                  225  [DRV] : RD = 0	WR = 1	DATAWR = 6	DATARD = 0	EMPTY = 0	FULL = 0
+#                  245  [MON] : RD = 0	WR = 1	DATAWR = 6	DATARD = 0	EMPTY = 0	FULL = 0
+#                  245  [SCO] : RD = 0	WR = 1	DATAWR = 6	DATARD = 0	EMPTY = 0	FULL = 0
+# [SCO] : Data Stored in Queue = 6
+# [Packet] 11 out of 20
+#                  245  [GEN] : RD = 1	WR = 0	DATAWR = 9	DATARD = 0	EMPTY = 0	FULL = 0
+#                  245  [DRV] : RD = 1	WR = 0	DATAWR = 9	DATARD = 0	EMPTY = 0	FULL = 0
+#                  265  [MON] : RD = 1	WR = 0	DATAWR = 9	DATARD = 0	EMPTY = 0	FULL = 0
+#                  265  [SCO] : RD = 1	WR = 0	DATAWR = 9	DATARD = 0	EMPTY = 0	FULL = 0
+# ** Error: DATA MIS-MATCH
+#    Time: 265 ns  Scope: fifo_svh_unit.fifo_scb.run File: 7.fifo_scb.sv Line: 33
+# [Packet] 12 out of 20
+#                  265  [GEN] : RD = 1	WR = 0	DATAWR = 8	DATARD = 0	EMPTY = 0	FULL = 0
+#                  265  [DRV] : RD = 1	WR = 0	DATAWR = 8	DATARD = 0	EMPTY = 0	FULL = 0
+#                  285  [MON] : RD = 1	WR = 0	DATAWR = 8	DATARD = 0	EMPTY = 0	FULL = 0
+#                  285  [SCO] : RD = 1	WR = 0	DATAWR = 8	DATARD = 0	EMPTY = 0	FULL = 0
+# ** Error: DATA MIS-MATCH
+#    Time: 285 ns  Scope: fifo_svh_unit.fifo_scb.run File: 7.fifo_scb.sv Line: 33
+# [Packet] 13 out of 20
+#                  285  [GEN] : RD = 1	WR = 0	DATAWR = 3	DATARD = 0	EMPTY = 0	FULL = 0
+#                  285  [DRV] : RD = 1	WR = 0	DATAWR = 3	DATARD = 0	EMPTY = 0	FULL = 0
+#                  305  [MON] : RD = 1	WR = 0	DATAWR = 3	DATARD = 0	EMPTY = 0	FULL = 0
+#                  305  [SCO] : RD = 1	WR = 0	DATAWR = 3	DATARD = 0	EMPTY = 0	FULL = 0
+# DATA MATCH
+# [Packet] 14 out of 20
+#                  305  [GEN] : RD = 0	WR = 1	DATAWR = 2	DATARD = 0	EMPTY = 0	FULL = 0
+#                  305  [DRV] : RD = 0	WR = 1	DATAWR = 2	DATARD = 0	EMPTY = 0	FULL = 0
+#                  325  [MON] : RD = 0	WR = 1	DATAWR = 2	DATARD = 0	EMPTY = 0	FULL = 0
+#                  325  [SCO] : RD = 0	WR = 1	DATAWR = 2	DATARD = 0	EMPTY = 0	FULL = 0
+# [SCO] : Data Stored in Queue = 2
+# [Packet] 15 out of 20
+#                  325  [GEN] : RD = 1	WR = 0	DATAWR = 3	DATARD = 0	EMPTY = 0	FULL = 0
+#                  325  [DRV] : RD = 1	WR = 0	DATAWR = 3	DATARD = 0	EMPTY = 0	FULL = 0
+#                  345  [MON] : RD = 1	WR = 0	DATAWR = 3	DATARD = 0	EMPTY = 0	FULL = 0
+#                  345  [SCO] : RD = 1	WR = 0	DATAWR = 3	DATARD = 0	EMPTY = 0	FULL = 0
+# ** Error: DATA MIS-MATCH
+#    Time: 345 ns  Scope: fifo_svh_unit.fifo_scb.run File: 7.fifo_scb.sv Line: 33
+# [Packet] 16 out of 20
+#                  345  [GEN] : RD = 0	WR = 1	DATAWR = 2	DATARD = 0	EMPTY = 0	FULL = 0
+#                  345  [DRV] : RD = 0	WR = 1	DATAWR = 2	DATARD = 0	EMPTY = 0	FULL = 0
+#                  365  [MON] : RD = 0	WR = 1	DATAWR = 2	DATARD = 0	EMPTY = 0	FULL = 0
+#                  365  [SCO] : RD = 0	WR = 1	DATAWR = 2	DATARD = 0	EMPTY = 0	FULL = 0
+# [SCO] : Data Stored in Queue = 2
+# [Packet] 17 out of 20
+#                  365  [GEN] : RD = 1	WR = 0	DATAWR = 9	DATARD = 0	EMPTY = 0	FULL = 0
+#                  365  [DRV] : RD = 1	WR = 0	DATAWR = 9	DATARD = 0	EMPTY = 0	FULL = 0
+#                  385  [MON] : RD = 1	WR = 0	DATAWR = 9	DATARD = 0	EMPTY = 0	FULL = 0
+#                  385  [SCO] : RD = 1	WR = 0	DATAWR = 9	DATARD = 0	EMPTY = 0	FULL = 0
+# ** Error: DATA MIS-MATCH
+#    Time: 385 ns  Scope: fifo_svh_unit.fifo_scb.run File: 7.fifo_scb.sv Line: 33
+# [Packet] 18 out of 20
+#                  385  [GEN] : RD = 0	WR = 1	DATAWR = 2	DATARD = 0	EMPTY = 0	FULL = 0
+#                  385  [DRV] : RD = 0	WR = 1	DATAWR = 2	DATARD = 0	EMPTY = 0	FULL = 0
+#                  405  [MON] : RD = 0	WR = 1	DATAWR = 2	DATARD = 0	EMPTY = 0	FULL = 0
+#                  405  [SCO] : RD = 0	WR = 1	DATAWR = 2	DATARD = 0	EMPTY = 0	FULL = 0
+# [SCO] : Data Stored in Queue = 2
+# [Packet] 19 out of 20
+#                  405  [GEN] : RD = 0	WR = 1	DATAWR = 3	DATARD = 0	EMPTY = 0	FULL = 0
+#                  405  [DRV] : RD = 0	WR = 1	DATAWR = 3	DATARD = 0	EMPTY = 0	FULL = 0
+#                  425  [MON] : RD = 0	WR = 1	DATAWR = 3	DATARD = 0	EMPTY = 0	FULL = 0
+#                  425  [SCO] : RD = 0	WR = 1	DATAWR = 3	DATARD = 0	EMPTY = 0	FULL = 0
+# [SCO] : Data Stored in Queue = 3
+# [Packet] 20 out of 20
+#                  425  [GEN] : RD = 1	WR = 0	DATAWR = 5	DATARD = 0	EMPTY = 0	FULL = 0
+#                  425  [DRV] : RD = 1	WR = 0	DATAWR = 5	DATARD = 0	EMPTY = 0	FULL = 0
+#                  445  [MON] : RD = 1	WR = 0	DATAWR = 5	DATARD = 0	EMPTY = 0	FULL = 0
+#                  445  [SCO] : RD = 1	WR = 0	DATAWR = 5	DATARD = 0	EMPTY = 0	FULL = 0
+# ** Error: DATA MIS-MATCH
+#    Time: 445 ns  Scope: fifo_svh_unit.fifo_scb.run File: 7.fifo_scb.sv Line: 33
+# ** Note: $stop    : 8.fifo_env.sv(34)
+#    Time: 445 ns  Iteration: 1  Instance: /fifo_top/tb
+# Break in Task fifo_svh_unit/fifo_env::post_test at 8.fifo_env.sv line 34
+# End time: 15:52:02 on Mar 05,2023, Elapsed time: 0:00:06
+# Errors: 6, Warnings: 0
