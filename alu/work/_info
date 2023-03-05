@@ -1,0 +1,209 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/particle/Desktop/sv_casestudies/alu
+T_opt
+Z1 !s110 1678005094
+V5HfF;K6=]>[cna5f?iEPU3
+04 7 4 work alu_top fast 0
+=1-000ae431a4f1-64045366-60479-1375
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.7c;67
+T_opt1
+!s110 1677412330
+V2WRhP:UP36ODEM^8:VGOf3
+04 6 4 work alu_tb fast 0
+=1-000ae431a4f1-63fb47ea-3c5a4-d37
+R2
+R3
+n@_opt1
+R4
+R0
+valu
+Z5 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+R1
+!i10b 1
+!s100 >:BLI3Ioh58Dman[Cnzl>2
+IH@QIWhQ:5F]Nk>g1<dO];0
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 !s105 alu_svh_unit
+S1
+R0
+Z8 w1674452552
+82.alu.sv
+Z9 F2.alu.sv
+L0 1
+Z10 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z11 !s108 1678005094.000000
+Z12 !s107 12.alu_top.sv|11.alu_cfg.sv|10.alu_tb.sv|9.alu_env.sv|8.alu_cov.sv|7.alu_scb.sv|6.alu_mon.sv|5.alu_drv.sv|4.alu_gen.sv|3.alu_tx.sv|2.alu.sv|1.alu_if.sv|alu.svh|
+Z13 !s90 -reportprogress|300|alu.svh|
+!i113 0
+Z14 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+Yalu_if
+R5
+R1
+!i10b 1
+!s100 [MkZJGl1imlcb5dbDeki?3
+IzdgTWT=7E69foI5nVUQNf2
+R6
+R7
+S1
+R0
+w1677436339
+81.alu_if.sv
+Z15 F1.alu_if.sv
+L0 1
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R3
+Yalu_intf
+R5
+!s110 1677376170
+!i10b 1
+!s100 bDf7GF@`_Q<<TWa_dPLQB1
+ICah]nH@QN1gnBS`liY2z63
+R6
+R7
+S1
+R0
+R8
+8alu_intf.sv
+Falu_intf.sv
+L0 1
+R10
+r1
+!s85 0
+31
+!s108 1677376170.000000
+!s107 alu_top.sv|alu_cfg.sv|alu_tb.sv|alu_env.sv|alu_cov.sv|alu_scb.sv|alu_mon.sv|alu_drv.sv|alu_gen.sv|alu_tx.sv|alu.sv|alu_intf.sv|alu.svh|
+R13
+!i113 0
+R14
+R3
+Xalu_svh_unit
+!s115 alu_if
+R5
+V1lICod]GicOQ<Bfg39KaO0
+r1
+!s85 0
+!i10b 1
+!s100 l>H[<PV4@eH6Sn3[WR:zQ2
+I1lICod]GicOQ<Bfg39KaO0
+!i103 1
+S1
+R0
+Z16 w1678005065
+8alu.svh
+Falu.svh
+R15
+R9
+F3.alu_tx.sv
+F4.alu_gen.sv
+F5.alu_drv.sv
+F6.alu_mon.sv
+F7.alu_scb.sv
+F8.alu_cov.sv
+F9.alu_env.sv
+Z17 F10.alu_tb.sv
+F11.alu_cfg.sv
+Z18 F12.alu_top.sv
+L0 1
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R3
+valu_tb
+R5
+DXx4 work 12 alu_svh_unit 0 22 Z0=<1Ic^AB7oHR4YFozhi2
+R6
+r1
+!s85 0
+!i10b 1
+!s100 5_dZf4I^m9Q01LjX`:B<03
+IQLoZe@jgLi8F]Tb8i^?Xd0
+R7
+S1
+R0
+w1677412119
+Z19 812.alu_top.sv
+R18
+L0 1
+R10
+31
+!s108 1677412327.000000
+R12
+R13
+!i113 0
+R14
+R3
+4alu_test
+R5
+Z20 DXx4 work 12 alu_svh_unit 0 22 1lICod]GicOQ<Bfg39KaO0
+R6
+r1
+!s85 0
+!i10b 1
+!s100 dQX:<Ee3SQz2_Sbee7DL?3
+I:6C_B?I9G1gB066dWA^7^2
+R7
+S1
+R0
+R16
+810.alu_tb.sv
+R17
+L0 1
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R3
+valu_top
+R5
+R20
+R6
+r1
+!s85 0
+!i10b 1
+!s100 71MXJaF9EFMLnn^J3V7GB2
+IMP1?mNFdJm7jAXG@o=MI_3
+R7
+S1
+R0
+w1677437895
+R19
+R18
+L0 1
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R3

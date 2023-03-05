@@ -1,0 +1,218 @@
+# //  Questa Sim-64
+# //  Version 10.7c linux_x86_64 Aug 17 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 14:01:34 on Mar 05,2023
+# vlog -reportprogress 300 alu.svh 
+# -- Compiling interface alu_if
+# -- Compiling module alu
+# -- Compiling package alu_svh_unit
+# -- Compiling program alu_test
+# -- Compiling module alu_top
+# 
+# Top level modules:
+# 	alu_top
+# End time: 14:01:34 on Mar 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim alu_top 
+# Start time: 14:01:34 on Mar 05,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.alu_svh_unit(fast)
+# Loading work.alu_top(fast)
+# Loading work.alu_test(fast)
+# Loading work.alu_if(fast)
+# [Packet] 1 out of 25
+# [GEN] : a = 157	b = 67	sel = 0	out = 0 @ 0
+# alu_cov::run
+# [DRV] : a = 157	b = 67	sel = 0	out = 0 @ 20
+# [MON] : a = 157	b = 67	sel = 0	out = 224 @ 25
+# [SCB] : a = 157	b = 67	sel = 0	out = 224 @ 25
+# ADDITION TEST PASS
+# alu_cov::run
+# [Packet] 2 out of 25
+# [GEN] : a = 199	b = 103	sel = 3	out = 0 @ 25
+# [DRV] : a = 199	b = 103	sel = 3	out = 0 @ 25
+# [MON] : a = 199	b = 103	sel = 3	out = 1 @ 35
+# [SCB] : a = 199	b = 103	sel = 3	out = 1 @ 35
+# DIVISION TEST PASS
+# alu_cov::run
+# [Packet] 3 out of 25
+# [GEN] : a = 216	b = 158	sel = 2	out = 0 @ 35
+# [DRV] : a = 216	b = 158	sel = 2	out = 0 @ 35
+# [MON] : a = 216	b = 158	sel = 2	out = 80 @ 45
+# [SCB] : a = 216	b = 158	sel = 2	out = 80 @ 45
+# MULTIPLICATION TEST PASS
+# alu_cov::run
+# [Packet] 4 out of 25
+# [GEN] : a = 159	b = 113	sel = 3	out = 0 @ 45
+# [DRV] : a = 159	b = 113	sel = 3	out = 0 @ 45
+# [MON] : a = 159	b = 113	sel = 3	out = 1 @ 55
+# [SCB] : a = 159	b = 113	sel = 3	out = 1 @ 55
+# DIVISION TEST PASS
+# alu_cov::run
+# [Packet] 5 out of 25
+# [GEN] : a = 5	b = 2	sel = 2	out = 0 @ 55
+# [DRV] : a = 5	b = 2	sel = 2	out = 0 @ 55
+# [MON] : a = 5	b = 2	sel = 2	out = 10 @ 65
+# [SCB] : a = 5	b = 2	sel = 2	out = 10 @ 65
+# MULTIPLICATION TEST PASS
+# alu_cov::run
+# [Packet] 6 out of 25
+# [GEN] : a = 48	b = 1	sel = 1	out = 0 @ 65
+# [DRV] : a = 48	b = 1	sel = 1	out = 0 @ 65
+# [MON] : a = 48	b = 1	sel = 1	out = 47 @ 75
+# [SCB] : a = 48	b = 1	sel = 1	out = 47 @ 75
+# SUBTRACTION TEST PASS
+# alu_cov::run
+# [Packet] 7 out of 25
+# [GEN] : a = 154	b = 77	sel = 1	out = 0 @ 75
+# [DRV] : a = 154	b = 77	sel = 1	out = 0 @ 75
+# [MON] : a = 154	b = 77	sel = 1	out = 77 @ 85
+# [SCB] : a = 154	b = 77	sel = 1	out = 77 @ 85
+# SUBTRACTION TEST PASS
+# alu_cov::run
+# [Packet] 8 out of 25
+# [GEN] : a = 219	b = 153	sel = 3	out = 0 @ 85
+# [DRV] : a = 219	b = 153	sel = 3	out = 0 @ 85
+# [MON] : a = 219	b = 153	sel = 3	out = 1 @ 95
+# [SCB] : a = 219	b = 153	sel = 3	out = 1 @ 95
+# DIVISION TEST PASS
+# alu_cov::run
+# [Packet] 9 out of 25
+# [GEN] : a = 50	b = 20	sel = 3	out = 0 @ 95
+# [DRV] : a = 50	b = 20	sel = 3	out = 0 @ 95
+# [MON] : a = 50	b = 20	sel = 3	out = 2 @ 105
+# [SCB] : a = 50	b = 20	sel = 3	out = 2 @ 105
+# DIVISION TEST PASS
+# alu_cov::run
+# [Packet] 10 out of 25
+# [GEN] : a = 180	b = 81	sel = 3	out = 0 @ 105
+# [DRV] : a = 180	b = 81	sel = 3	out = 0 @ 105
+# [MON] : a = 180	b = 81	sel = 3	out = 2 @ 115
+# [SCB] : a = 180	b = 81	sel = 3	out = 2 @ 115
+# DIVISION TEST PASS
+# alu_cov::run
+# [Packet] 11 out of 25
+# [GEN] : a = 237	b = 233	sel = 3	out = 0 @ 115
+# [DRV] : a = 237	b = 233	sel = 3	out = 0 @ 115
+# [MON] : a = 237	b = 233	sel = 3	out = 1 @ 125
+# [SCB] : a = 237	b = 233	sel = 3	out = 1 @ 125
+# DIVISION TEST PASS
+# alu_cov::run
+# [Packet] 12 out of 25
+# [GEN] : a = 134	b = 55	sel = 1	out = 0 @ 125
+# [DRV] : a = 134	b = 55	sel = 1	out = 0 @ 125
+# [MON] : a = 134	b = 55	sel = 1	out = 79 @ 135
+# [SCB] : a = 134	b = 55	sel = 1	out = 79 @ 135
+# SUBTRACTION TEST PASS
+# alu_cov::run
+# [Packet] 13 out of 25
+# [GEN] : a = 227	b = 114	sel = 3	out = 0 @ 135
+# [DRV] : a = 227	b = 114	sel = 3	out = 0 @ 135
+# [MON] : a = 227	b = 114	sel = 3	out = 1 @ 145
+# [SCB] : a = 227	b = 114	sel = 3	out = 1 @ 145
+# DIVISION TEST PASS
+# alu_cov::run
+# [Packet] 14 out of 25
+# [GEN] : a = 241	b = 99	sel = 0	out = 0 @ 145
+# [DRV] : a = 241	b = 99	sel = 0	out = 0 @ 145
+# [MON] : a = 241	b = 99	sel = 0	out = 84 @ 155
+# [SCB] : a = 241	b = 99	sel = 0	out = 84 @ 155
+# ADDITION TEST PASS
+# alu_cov::run
+# [Packet] 15 out of 25
+# [GEN] : a = 155	b = 142	sel = 2	out = 0 @ 155
+# [DRV] : a = 155	b = 142	sel = 2	out = 0 @ 155
+# [MON] : a = 155	b = 142	sel = 2	out = 250 @ 165
+# [SCB] : a = 155	b = 142	sel = 2	out = 250 @ 165
+# MULTIPLICATION TEST PASS
+# alu_cov::run
+# [Packet] 16 out of 25
+# [GEN] : a = 234	b = 226	sel = 1	out = 0 @ 165
+# [DRV] : a = 234	b = 226	sel = 1	out = 0 @ 165
+# [MON] : a = 234	b = 226	sel = 1	out = 8 @ 175
+# [SCB] : a = 234	b = 226	sel = 1	out = 8 @ 175
+# SUBTRACTION TEST PASS
+# alu_cov::run
+# [Packet] 17 out of 25
+# [GEN] : a = 192	b = 93	sel = 0	out = 0 @ 175
+# [DRV] : a = 192	b = 93	sel = 0	out = 0 @ 175
+# [MON] : a = 192	b = 93	sel = 0	out = 29 @ 185
+# [SCB] : a = 192	b = 93	sel = 0	out = 29 @ 185
+# ADDITION TEST PASS
+# alu_cov::run
+# [Packet] 18 out of 25
+# [GEN] : a = 2	b = 1	sel = 0	out = 0 @ 185
+# [DRV] : a = 2	b = 1	sel = 0	out = 0 @ 185
+# [MON] : a = 2	b = 1	sel = 0	out = 3 @ 195
+# [SCB] : a = 2	b = 1	sel = 0	out = 3 @ 195
+# ADDITION TEST PASS
+# alu_cov::run
+# [Packet] 19 out of 25
+# [GEN] : a = 252	b = 240	sel = 2	out = 0 @ 195
+# [DRV] : a = 252	b = 240	sel = 2	out = 0 @ 195
+# [MON] : a = 252	b = 240	sel = 2	out = 64 @ 205
+# [SCB] : a = 252	b = 240	sel = 2	out = 64 @ 205
+# MULTIPLICATION TEST PASS
+# alu_cov::run
+# [Packet] 20 out of 25
+# [GEN] : a = 165	b = 60	sel = 2	out = 0 @ 205
+# [DRV] : a = 165	b = 60	sel = 2	out = 0 @ 205
+# [MON] : a = 165	b = 60	sel = 2	out = 172 @ 215
+# [SCB] : a = 165	b = 60	sel = 2	out = 172 @ 215
+# MULTIPLICATION TEST PASS
+# alu_cov::run
+# [Packet] 21 out of 25
+# [GEN] : a = 139	b = 89	sel = 2	out = 0 @ 215
+# [DRV] : a = 139	b = 89	sel = 2	out = 0 @ 215
+# [MON] : a = 139	b = 89	sel = 2	out = 83 @ 225
+# [SCB] : a = 139	b = 89	sel = 2	out = 83 @ 225
+# MULTIPLICATION TEST PASS
+# alu_cov::run
+# [Packet] 22 out of 25
+# [GEN] : a = 200	b = 59	sel = 3	out = 0 @ 225
+# [DRV] : a = 200	b = 59	sel = 3	out = 0 @ 225
+# [MON] : a = 200	b = 59	sel = 3	out = 3 @ 235
+# [SCB] : a = 200	b = 59	sel = 3	out = 3 @ 235
+# DIVISION TEST PASS
+# alu_cov::run
+# [Packet] 23 out of 25
+# [GEN] : a = 244	b = 168	sel = 3	out = 0 @ 235
+# [DRV] : a = 244	b = 168	sel = 3	out = 0 @ 235
+# [MON] : a = 244	b = 168	sel = 3	out = 1 @ 245
+# [SCB] : a = 244	b = 168	sel = 3	out = 1 @ 245
+# DIVISION TEST PASS
+# alu_cov::run
+# [Packet] 24 out of 25
+# [GEN] : a = 236	b = 155	sel = 2	out = 0 @ 245
+# [DRV] : a = 236	b = 155	sel = 2	out = 0 @ 245
+# [MON] : a = 236	b = 155	sel = 2	out = 228 @ 255
+# [SCB] : a = 236	b = 155	sel = 2	out = 228 @ 255
+# MULTIPLICATION TEST PASS
+# alu_cov::run
+# [Packet] 25 out of 25
+# [GEN] : a = 148	b = 4	sel = 2	out = 0 @ 255
+# [DRV] : a = 148	b = 4	sel = 2	out = 0 @ 255
+# [MON] : a = 148	b = 4	sel = 2	out = 80 @ 265
+# [SCB] : a = 148	b = 4	sel = 2	out = 80 @ 265
+# MULTIPLICATION TEST PASS
+# alu_cov::run
+# ** Note: $stop    : 9.alu_env.sv(35)
+#    Time: 265 ns  Iteration: 2  Instance: /alu_top/tb
+# Break in Task alu_svh_unit/alu_env::post_test at 9.alu_env.sv line 35
+q
+# End time: 14:02:47 on Mar 05,2023, Elapsed time: 0:01:13
+# Errors: 0, Warnings: 0
