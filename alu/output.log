@@ -14,7 +14,7 @@
 # //
 do run.do
 # QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 17 2018
-# Start time: 14:01:34 on Mar 05,2023
+# Start time: 15:53:10 on Mar 05,2023
 # vlog -reportprogress 300 alu.svh 
 # -- Compiling interface alu_if
 # -- Compiling module alu
@@ -24,11 +24,11 @@ do run.do
 # 
 # Top level modules:
 # 	alu_top
-# End time: 14:01:34 on Mar 05,2023, Elapsed time: 0:00:00
+# End time: 15:53:11 on Mar 05,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vsim alu_top 
-# Start time: 14:01:34 on Mar 05,2023
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Start time: 15:53:11 on Mar 05,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
 # Loading sv_std.std
 # Loading work.alu_svh_unit(fast)
 # Loading work.alu_top(fast)
@@ -213,6 +213,5 @@ do run.do
 # ** Note: $stop    : 9.alu_env.sv(35)
 #    Time: 265 ns  Iteration: 2  Instance: /alu_top/tb
 # Break in Task alu_svh_unit/alu_env::post_test at 9.alu_env.sv line 35
-q
-# End time: 14:02:47 on Mar 05,2023, Elapsed time: 0:01:13
+# End time: 15:53:19 on Mar 05,2023, Elapsed time: 0:00:08
 # Errors: 0, Warnings: 0

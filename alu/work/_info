@@ -9,27 +9,28 @@ z2
 cModel Technology
 Z0 d/home/particle/Desktop/sv_casestudies/alu
 T_opt
-Z1 !s110 1678005094
+!s110 1678005094
 V5HfF;K6=]>[cna5f?iEPU3
 04 7 4 work alu_top fast 0
 =1-000ae431a4f1-64045366-60479-1375
-Z2 o-quiet -auto_acc_if_foreign -work work
-Z3 tCvgOpt 0
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
 n@_opt
-Z4 OL;O;10.7c;67
+Z3 OL;O;10.7c;67
+R0
 T_opt1
 !s110 1677412330
 V2WRhP:UP36ODEM^8:VGOf3
 04 6 4 work alu_tb fast 0
 =1-000ae431a4f1-63fb47ea-3c5a4-d37
+R1
 R2
-R3
 n@_opt1
-R4
+R3
 R0
 valu
-Z5 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
-R1
+Z4 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z5 !s110 1678012102
 !i10b 1
 !s100 >:BLI3Ioh58Dman[Cnzl>2
 IH@QIWhQ:5F]Nk>g1<dO];0
@@ -37,7 +38,7 @@ Z6 VDg1SIo80bB@j0V0VzS_@n1
 Z7 !s105 alu_svh_unit
 S1
 R0
-Z8 w1674452552
+Z8 w1678010240
 82.alu.sv
 Z9 F2.alu.sv
 L0 1
@@ -45,15 +46,15 @@ Z10 OL;L;10.7c;67
 r1
 !s85 0
 31
-Z11 !s108 1678005094.000000
+Z11 !s108 1678012102.000000
 Z12 !s107 12.alu_top.sv|11.alu_cfg.sv|10.alu_tb.sv|9.alu_env.sv|8.alu_cov.sv|7.alu_scb.sv|6.alu_mon.sv|5.alu_drv.sv|4.alu_gen.sv|3.alu_tx.sv|2.alu.sv|1.alu_if.sv|alu.svh|
 Z13 !s90 -reportprogress|300|alu.svh|
 !i113 0
 Z14 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R3
+R2
 Yalu_if
+R4
 R5
-R1
 !i10b 1
 !s100 [MkZJGl1imlcb5dbDeki?3
 IzdgTWT=7E69foI5nVUQNf2
@@ -61,7 +62,7 @@ R6
 R7
 S1
 R0
-w1677436339
+R8
 81.alu_if.sv
 Z15 F1.alu_if.sv
 L0 1
@@ -74,9 +75,9 @@ R12
 R13
 !i113 0
 R14
-R3
+R2
 Yalu_intf
-R5
+R4
 !s110 1677376170
 !i10b 1
 !s100 bDf7GF@`_Q<<TWa_dPLQB1
@@ -85,7 +86,7 @@ R6
 R7
 S1
 R0
-R8
+w1674452552
 8alu_intf.sv
 Falu_intf.sv
 L0 1
@@ -98,10 +99,10 @@ r1
 R13
 !i113 0
 R14
-R3
+R2
 Xalu_svh_unit
 !s115 alu_if
-R5
+R4
 V1lICod]GicOQ<Bfg39KaO0
 r1
 !s85 0
@@ -111,7 +112,7 @@ I1lICod]GicOQ<Bfg39KaO0
 !i103 1
 S1
 R0
-Z16 w1678005065
+R8
 8alu.svh
 Falu.svh
 R15
@@ -123,9 +124,9 @@ F6.alu_mon.sv
 F7.alu_scb.sv
 F8.alu_cov.sv
 F9.alu_env.sv
-Z17 F10.alu_tb.sv
+Z16 F10.alu_tb.sv
 F11.alu_cfg.sv
-Z18 F12.alu_top.sv
+Z17 F12.alu_top.sv
 L0 1
 R10
 31
@@ -134,9 +135,9 @@ R12
 R13
 !i113 0
 R14
-R3
+R2
 valu_tb
-R5
+R4
 DXx4 work 12 alu_svh_unit 0 22 Z0=<1Ic^AB7oHR4YFozhi2
 R6
 r1
@@ -148,8 +149,8 @@ R7
 S1
 R0
 w1677412119
-Z19 812.alu_top.sv
-R18
+Z18 812.alu_top.sv
+R17
 L0 1
 R10
 31
@@ -158,10 +159,10 @@ R12
 R13
 !i113 0
 R14
-R3
+R2
 4alu_test
-R5
-Z20 DXx4 work 12 alu_svh_unit 0 22 1lICod]GicOQ<Bfg39KaO0
+R4
+Z19 DXx4 work 12 alu_svh_unit 0 22 1lICod]GicOQ<Bfg39KaO0
 R6
 r1
 !s85 0
@@ -171,9 +172,9 @@ I:6C_B?I9G1gB066dWA^7^2
 R7
 S1
 R0
-R16
+R8
 810.alu_tb.sv
-R17
+R16
 L0 1
 R10
 31
@@ -182,10 +183,10 @@ R12
 R13
 !i113 0
 R14
-R3
+R2
 valu_top
-R5
-R20
+R4
+R19
 R6
 r1
 !s85 0
@@ -195,9 +196,9 @@ IMP1?mNFdJm7jAXG@o=MI_3
 R7
 S1
 R0
-w1677437895
-R19
+R8
 R18
+R17
 L0 1
 R10
 31
@@ -206,4 +207,4 @@ R12
 R13
 !i113 0
 R14
-R3
+R2
