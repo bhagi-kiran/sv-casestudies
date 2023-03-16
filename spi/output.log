@@ -1,0 +1,142 @@
+# Reading pref.tcl
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+do run.do
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 01:23:59 on Mar 12,2023
+# vlog -reportprogress 300 spi.svh 
+# -- Compiling interface spi_if
+# -- Compiling module spi
+# -- Compiling package spi_svh_unit
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 01:23:59 on Mar 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 01:23:59 on Mar 12,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading sv_std.std
+# Loading work._11_top_sv_unit(fast)
+# Loading work.tb(fast)
+# Loading work.spi_if(fast)
+# [DRV] : RESET DONE
+# [GEN] : DATA_NEW : 1 DIN : 3865 CS : 0 MOSI : 0 
+# [DRV] : DATA SENT TO DAC : 3865
+# [MON] : DATA SENT : 3865
+# [SCO] : DRV : 3865 MON : 3865
+# [SCO] : DATA MATCHED
+# [GEN] : DATA_NEW : 0 DIN : 771 CS : 0 MOSI : 0 
+# [DRV] : DATA SENT TO DAC : 771
+# [MON] : DATA SENT : 771
+# [SCO] : DRV : 771 MON : 771
+# [SCO] : DATA MATCHED
+# [GEN] : DATA_NEW : 0 DIN : 985 CS : 0 MOSI : 0 
+# [DRV] : DATA SENT TO DAC : 985
+# [MON] : DATA SENT : 985
+# [SCO] : DRV : 985 MON : 985
+# [SCO] : DATA MATCHED
+# [GEN] : DATA_NEW : 0 DIN : 890 CS : 0 MOSI : 0 
+# [DRV] : DATA SENT TO DAC : 890
+# [MON] : DATA SENT : 890
+# [SCO] : DRV : 890 MON : 890
+# [SCO] : DATA MATCHED
+# [GEN] : DATA_NEW : 1 DIN : 4034 CS : 0 MOSI : 0 
+# [DRV] : DATA SENT TO DAC : 4034
+# [MON] : DATA SENT : 4034
+# [SCO] : DRV : 4034 MON : 4034
+# [SCO] : DATA MATCHED
+# [GEN] : DATA_NEW : 1 DIN : 746 CS : 0 MOSI : 0 
+# [DRV] : DATA SENT TO DAC : 746
+# [MON] : DATA SENT : 746
+# [SCO] : DRV : 746 MON : 746
+# [SCO] : DATA MATCHED
+# [GEN] : DATA_NEW : 1 DIN : 1552 CS : 0 MOSI : 0 
+# [DRV] : DATA SENT TO DAC : 1552
+# [MON] : DATA SENT : 1552
+# [SCO] : DRV : 1552 MON : 1552
+# [SCO] : DATA MATCHED
+# [GEN] : DATA_NEW : 1 DIN : 1304 CS : 0 MOSI : 0 
+# [DRV] : DATA SENT TO DAC : 1304
+# [MON] : DATA SENT : 1304
+# [SCO] : DRV : 1304 MON : 1304
+# [SCO] : DATA MATCHED
+# [GEN] : DATA_NEW : 1 DIN : 950 CS : 0 MOSI : 0 
+# [DRV] : DATA SENT TO DAC : 950
+# [MON] : DATA SENT : 950
+# [SCO] : DRV : 950 MON : 950
+# [SCO] : DATA MATCHED
+# [GEN] : DATA_NEW : 0 DIN : 1487 CS : 0 MOSI : 0 
+# [DRV] : DATA SENT TO DAC : 1487
+# [MON] : DATA SENT : 1487
+# [SCO] : DRV : 1487 MON : 1487
+# [SCO] : DATA MATCHED
+# [GEN] : DATA_NEW : 0 DIN : 170 CS : 0 MOSI : 0 
+# [DRV] : DATA SENT TO DAC : 170
+# [MON] : DATA SENT : 170
+# [SCO] : DRV : 170 MON : 170
+# [SCO] : DATA MATCHED
+# [GEN] : DATA_NEW : 1 DIN : 1989 CS : 0 MOSI : 0 
+# [DRV] : DATA SENT TO DAC : 1989
+# [MON] : DATA SENT : 1989
+# [SCO] : DRV : 1989 MON : 1989
+# [SCO] : DATA MATCHED
+# [GEN] : DATA_NEW : 0 DIN : 1340 CS : 0 MOSI : 0 
+# [DRV] : DATA SENT TO DAC : 1340
+# [MON] : DATA SENT : 1340
+# [SCO] : DRV : 1340 MON : 1340
+# [SCO] : DATA MATCHED
+# [GEN] : DATA_NEW : 0 DIN : 2427 CS : 0 MOSI : 0 
+# [DRV] : DATA SENT TO DAC : 2427
+# [MON] : DATA SENT : 2427
+# [SCO] : DRV : 2427 MON : 2427
+# [SCO] : DATA MATCHED
+# [GEN] : DATA_NEW : 1 DIN : 3534 CS : 0 MOSI : 0 
+# [DRV] : DATA SENT TO DAC : 3534
+# [MON] : DATA SENT : 3534
+# [SCO] : DRV : 3534 MON : 3534
+# [SCO] : DATA MATCHED
+# [GEN] : DATA_NEW : 1 DIN : 1866 CS : 0 MOSI : 0 
+# [DRV] : DATA SENT TO DAC : 1866
+# [MON] : DATA SENT : 1866
+# [SCO] : DRV : 1866 MON : 1866
+# [SCO] : DATA MATCHED
+# [GEN] : DATA_NEW : 0 DIN : 3192 CS : 0 MOSI : 0 
+# [DRV] : DATA SENT TO DAC : 3192
+# [MON] : DATA SENT : 3192
+# [SCO] : DRV : 3192 MON : 3192
+# [SCO] : DATA MATCHED
+# [GEN] : DATA_NEW : 1 DIN : 1627 CS : 0 MOSI : 0 
+# [DRV] : DATA SENT TO DAC : 1627
+# [MON] : DATA SENT : 1627
+# [SCO] : DRV : 1627 MON : 1627
+# [SCO] : DATA MATCHED
+# [GEN] : DATA_NEW : 1 DIN : 2439 CS : 0 MOSI : 0 
+# [DRV] : DATA SENT TO DAC : 2439
+# [MON] : DATA SENT : 2439
+# [SCO] : DRV : 2439 MON : 2439
+# [SCO] : DATA MATCHED
+# [GEN] : DATA_NEW : 1 DIN : 487 CS : 0 MOSI : 0 
+# [DRV] : DATA SENT TO DAC : 487
+# [MON] : DATA SENT : 487
+# [SCO] : DRV : 487 MON : 487
+# [SCO] : DATA MATCHED
+# ** Note: $finish    : 8.spi_environment.sv(59)
+#    Time: 611170 ns  Iteration: 5  Instance: /tb
+# 1
+# Break in Task _11_top_sv_unit/environment::post_test at 8.spi_environment.sv line 59
+# End time: 01:24:29 on Mar 12,2023, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 0
